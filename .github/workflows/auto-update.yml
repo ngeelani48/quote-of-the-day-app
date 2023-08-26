@@ -1,0 +1,47 @@
+name: Daily Quote and Image Update
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Run every day at midnight UTC
+
+jobs:
+  update-content:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v2
+
+      - name: Update daily quote
+        run: |
+          QUOTES=(
+            "Quote 1: The only way to do great work is to love what you do. - Steve Jobs"
+            "Quote 2: In the middle of every difficulty lies opportunity. - Albert Einstein"
+            "Quote 3: Believe you can and you're halfway there. - Theodore Roosevelt"
+          )
+          NEW_QUOTE=${QUOTES[$(date +\%j) % ${#QUOTES[@]}]}
+          echo "const quote = '${NEW_QUOTE}';" > script.js
+          echo "document.getElementById('quote').textContent = quote;" >> script.js
+
+          # Commit and push changes
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git commit -am "Update daily quote $(date -u)"
+          git push
+
+      - name: Update background image URL
+        run: |
+          # Randomly select a background image from an array
+          IMAGES=(
+            "image1.jpg"
+            "image2.jpg"
+            "image3.jpg"
+          )
+          NEW_IMAGE=${IMAGES[$(date +\%j) % ${#IMAGES[@]}]}
+          sed -i "s#background-image: url('.*');#background-image: url('${NEW_IMAGE}');#" styles.css
+
+          # Commit and push changes
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git commit -am "Update background image URL $(date -u)"
+          git push
