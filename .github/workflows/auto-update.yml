@@ -11,6 +11,8 @@ jobs:
     steps:
       - name: Check out code
         uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.PAT_TOKEN }} # Use the secret PAT for authentication
 
       - name: Update daily quote
         run: |
@@ -41,7 +43,9 @@ jobs:
           sed -i "s#background-image: url('.*');#background-image: url('${NEW_IMAGE}');#" styles.css
 
           # Commit and push changes
+          GIT_TOKEN=${{ secrets.PAT_TOKEN }}
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git commit -am "Update background image URL $(date -u)"
-          git push
+          git add .
+          git commit -m "Update daily quote $(date -u)"
+          git push origin HEAD:main
