@@ -16,3 +16,10 @@ jobs:
 
       - name: Update background image URL
         run: node scripts/update-image.js
+        
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .
+          git commit -m "Update daily quote $(date -u)"
+          git push origin HEAD:main
