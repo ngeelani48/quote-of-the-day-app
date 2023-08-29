@@ -1,2 +1,2 @@
-const quote = 'Quote 1: The only way to do great work is to love what you do. - Steve Jobs';
+const quote = 'Quote 2: In the middle of every difficulty lies opportunity. - Albert Einstein';
 document.getElementById('quote').textContent = quote;
