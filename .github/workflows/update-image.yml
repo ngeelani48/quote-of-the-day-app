@@ -1,0 +1,18 @@
+name: Daily Image Update
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Run every day at midnight UTC
+
+jobs:
+  update-image:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.PAT_TOKEN }}
+
+      - name: Update background image URL
+        run: node scripts/update-image.js
