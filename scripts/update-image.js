@@ -10,9 +10,11 @@ const IMAGES = [
   'image7.jpg',
 ];
 
-const newImage = IMAGES[new Date().getDay() % IMAGES.length];
+const currentDate = new Date();
+const currentDayOfMonth = currentDate.getDate();
+const newImageIndex = currentDayOfMonth % IMAGES.length;
 
 const stylesPath = 'styles.css';
 let stylesContent = fs.readFileSync(stylesPath, 'utf-8');
-stylesContent = stylesContent.replace(/background-image: url\('.*'\);/, `background-image: url('${newImage}');`);
+stylesContent = stylesContent.replace(/background-image: url\('.*'\);/, `background-image: url('${IMAGES[newImageIndex]}');`);
 fs.writeFileSync(stylesPath, stylesContent, 'utf-8');
