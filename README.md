@@ -64,7 +64,7 @@ To get a local copy up and running, follow these steps.
 Clone this repository to your desired folder:
 
 
-> Open GitHub and go to my GitHub repository name: First-Capstone-Project-Rooftop-Cafe to clone.
+> Open GitHub and go to my GitHub repository name: quote-of-the-day-app to clone.
 > Click “Code” and copy the given URL.
 
 > Open “Git Bash” and change the current working directory to the location where you want the cloned directory.
