@@ -51,7 +51,6 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -69,21 +68,20 @@ Clone this repository to your desired folder:
 
 > Open “Git Bash” and change the current working directory to the location where you want the cloned directory.
 
-> Type git clone in the terminal, paste the URL you copied earlier, and press “enter” to create your local clone.
+> Type git clone in the terminal, paste the URL you copied earlier and press “enter” to create your local clone.
 
 > Syntax:
 
 $ git clone {repository URL}
---->
 
 ### Usage
 
 To run the project, execute the following command:
 
 <!--
-> open your directory Digital_World_Summit
-> to run the file :
-> \_use vs-code or any IDE to view line code .
+> Open your directory Digital_World_Summit
+> To run the file :
+> Use vs-code or any IDE to view line code.
 -
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
