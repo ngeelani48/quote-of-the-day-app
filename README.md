@@ -34,8 +34,6 @@
 - **[css]**
 - **[javascript]**
 
-<!-- Features -->
-
 ### Key Features <a name="key-features"></a>
 
 - **[Quote of the Day]**
