@@ -22,8 +22,6 @@
   - [🙏 Acknowledgments ](#-acknowledgments-)
   - [📝 License ](#-license-)
 
-<!-- PROJECT DESCRIPTION -->
-
 # 📖 [Quote Of The Day] <a name="about-project"></a>
 
 **[Quote Of The Day]**, This is a simple web application that provides you with an inspirational quote every day, along with a fresh and dynamic background image to brighten up your day.
