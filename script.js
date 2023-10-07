@@ -1,2 +1,2 @@
-const quote = 'Life is 10% what happens to us and 90% how we react to it. - Charles R. Swindoll';
+const quote = 'The future belongs to those who believe in the beauty of their dreams. - Eleanor Roosevelt';
 document.getElementById('quote').textContent = quote;
