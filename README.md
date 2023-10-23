@@ -2,7 +2,7 @@
 
 <div align="center">
 
-  <h3><b>Quote Of The Day</b></h3>
+  <h2><b>Quote Of The Day</b></h2>
 
 </div>
 
@@ -24,7 +24,7 @@
 
 # 📖 [Quote Of The Day] <a name="about-project"></a>
 
-**[Quote Of The Day]**, This is a simple web application that provides you with an inspirational quote every day, along with a fresh and dynamic background image to brighten up your day.
+**[Quote Of The Day]**This simple web application provides you with an inspirational quote every day, along with a fresh and dynamic background image to brighten your day.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -60,9 +60,9 @@ Clone this repository to your desired folder:
 > Open GitHub and go to my GitHub repository name: quote-of-the-day-app to clone.
 > Click “Code” and copy the given URL.
 
-> Open “Git Bash” and change the current working directory to the location where you want the cloned directory.
+> Open “Git Bash” and change the current working directory to where you want the cloned directory.
 
-> Type git clone in the terminal, paste the URL you copied earlier, and press “enter” to create your local clone.
+> Type git clone in the terminal, paste the URL you copied earlier and press “enter” to create your local clone.
 
 > Syntax:
 
