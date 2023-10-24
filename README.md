@@ -86,7 +86,7 @@ To run the project, execute the following command:
 👤 **Muhammad Nafees**
 
 - GitHub: [@ngeelani48](https://github.com/ngeelani48)
-- LinkedIn: [Muhammad Nafees](https://www.linkedin.com/in/muhammad-nafees/)
+- LinkedIn [Muhammad Nafees](https://www.linkedin.com/in/muhammad-nafees/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
