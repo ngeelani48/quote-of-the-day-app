@@ -2,7 +2,7 @@ const fs = require('fs');
 
 const QUOTES = [
   'The only way to do great work is to love what you do. - Steve Jobs',
-  'Success is not final, failure is not fatal: It is the courage to continue that counts. - Winston Churchill',
+  'Success is not final, failure is not fatal: It is the courage to continue that count. - Winston Churchill',
   'In the middle of every difficulty lies opportunity. - Albert Einstein',
   `Believe you can and you're halfway there. - Theodore Roosevelt`,
   "Your time is limited, don't waste it living someone else's life. - Steve Jobs",
