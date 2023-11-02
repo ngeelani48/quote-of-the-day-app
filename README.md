@@ -96,7 +96,6 @@ Contributions, issues, and feature requests are welcome!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 ## ⭐️ Show your support <a name="support"></a>
 
 If you like this project please leave a star on the project!
