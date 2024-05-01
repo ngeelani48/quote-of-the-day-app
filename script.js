@@ -1,2 +1,2 @@
-const quote = 'In the middle of every difficulty lies opportunity. - Albert Einstein';
+const quote = 'Believe you can and you're halfway there. - Theodore Roosevelt';
 document.getElementById('quote').textContent = quote;
