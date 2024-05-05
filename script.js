@@ -1,2 +1,2 @@
-const quote = 'The future belongs to those who believe in the beauty of their dreams. - Eleanor Roosevelt';
+const quote = 'The only way to do great work is to love what you do. - Steve Jobs';
 document.getElementById('quote').textContent = quote;
